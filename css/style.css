@@ -1,0 +1,161 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+header {
+	border-top: #2ecc71 10px solid;
+	background: url("../img/background-header.png") center top no-repeat;
+	background-size: cover;
+	height: 600px;
+}
+
+.site-name {
+	font-family: 'Pacifico', cursive;
+	font-size: 60px;
+	font-weight: 400;
+	color: #fff;
+	margin-top: 150px;
+}
+
+.site-name span {
+	color: #2ecc71;
+}
+
+.site-slogan {
+	color: #fff;
+	font-family: Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	margin-top: 25px;
+}
+
+.icons ul {
+	margin-top: 20px;
+	padding: 0;
+}
+
+.icons ul li {
+	display: inline-block;
+	background: #000;
+	padding: 15px;
+	border-radius: 25px;
+	opacity: .5;
+	width: 52px;
+	text-align: center;
+	margin: 0 5px;
+}
+
+.icons ul li:hover {
+	background-color: #2ecc71;
+	opacity: 1;
+	transition: .5s;
+	cursor: pointer;
+}
+
+.icons ul li i {
+	color: #fff;
+}
+
+section {
+	padding: 50px 0;
+}
+
+.featured__img {
+	text-align: center;
+}
+
+.featured__title {
+	text-align: center;
+	color: #222;
+	font-size: 22px;
+	font-weight: 600;
+	margin-top: 25px;
+}
+
+.featured__description {
+	text-align: center;
+	color: #848484;
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 25px;
+}
+
+.notifed {
+	background-color: #e3e3e3;
+}
+
+.notifed__title {
+	color: #222;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.notifed__description {
+	color: #848484;
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 25px;
+}
+
+.notifed form {
+	margin-top: 25px;
+}
+
+.notifed form input {
+	padding: 20px 25px;
+	border: #c9c9c9 1px solid;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+	margin: 0;
+	height: 66px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.notifed form button {
+	margin: 0;
+	background-color: #2ecc71;
+	padding: 15px 30px;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 700;
+	border: none;
+	height: 66px;
+	display: inline-block;
+	vertical-align: middle;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+	margin-left: -4px;
+}
+
+.notifed .video {
+	background: url("../img/player.png") center center no-repeat;
+	background-size: cover;
+	width: 500px;
+	height: 307px;
+	margin: 0 auto;
+}
+
+.footer__menu {
+	text-align: center;
+	height: 130px;
+	background-color: #e3e3e3;
+	margin: 0;
+	font-size: 0;
+}
+
+.footer__menu li {
+	display: inline-block;
+	line-height: 130px;
+	padding: 0 18px;
+}
+
+.footer__menu li a {
+	text-decoration: none;
+	color: #848484;
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
